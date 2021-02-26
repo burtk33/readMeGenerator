@@ -1,3 +1,4 @@
+![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
 # 
 
 ## Table of Contents
@@ -5,7 +6,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributors](#contributors)
+* [Contribution Guidelines](#contribution-guidelines)
 * [License](#license)
 * [Questions](#questions)
     
@@ -18,12 +19,12 @@
 ## Usage
 
 
-## Contributors
-undefined
+## Contribution Guidelines
+
 
 ## License
 
 ## Questions
 [Github Profile](https://github.com/)
 
-*I can be reached via email at burtk33@gmail.com*
+*I can be reached via email at *

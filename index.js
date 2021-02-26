@@ -36,6 +36,13 @@ inquirer
             name: 'contrib',
         },
         {
+            type: 'checkbox',
+            message:'Choose a license:',
+            choices: ['Apache2.0', 'MIT', 'GNUGPLv3'],
+            name: 'license',
+
+        },
+        {
             type: 'input',
             message: 'Enter your Github username:',
             name: 'github',
