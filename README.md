@@ -1,4 +1,4 @@
-![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
+![License Badge](https://img.shields.io/static/v1?label=License&message=Apache2.0&color=blue)
 # 
 
 ## Table of Contents
@@ -23,6 +23,9 @@
 
 
 ## License
+*This project uses the Apache2.0 license.
+*Read more about it by clicking the link below 
+
 
 ## Questions
 [Github Profile](https://github.com/)
