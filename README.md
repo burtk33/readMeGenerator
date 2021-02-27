@@ -23,11 +23,13 @@
 
 
 ## License
-*This project uses the Apache2.0 license.
-*Read more about it by clicking the link below 
+*This project uses the Apache2.0 license.*
 
+*Read more about it by clicking the link below*
+
+[License Link](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Questions
 [Github Profile](https://github.com/)
 
-*I can be reached via email at *
+I can be reached via email at 

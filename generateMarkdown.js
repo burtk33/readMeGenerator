@@ -7,20 +7,20 @@ function renderLicenseBadge(license) {
 
 //function that renders a link to txt file containg license
 function renderLicenseLink(license) {
-    let selectedLicense=license.license;
-    console.log(selectedLicense);
+    const selectedLicense=license.license[0];
+    console.log(license.license[0])
     let licenseLink="";
 
-    if(selectedLicense ==="Apache2.0"){
-        licenseLink="![License Link](./licenses/Apache.txt)";
-        
+    if(selectedLicense === "Apache2.0"){
+        licenseLink=`[License Link](http://www.apache.org/licenses/LICENSE-2.0)`;
     }
-    if(selectedLicense ==='MIT'){
-        licenseLink="![License Link](./licenses/MIT.txt)";
+    if(selectedLicense === "MIT"){
+        licenseLink=`[License Link](https://choosealicense.com/licenses/mit/)`;
     }
-    if(selectedLicense ==='GNUGPLv3'){
-        licenseLink="![License Link](./licenses/GNU.txt)";
+    if(selectedLicense === "GNUGPLv3"){
+        licenseLink=`[License Link](https://choosealicense.com/licenses/gpl-3.0/)`;
     }
+   
     return licenseLink;
 
 }
@@ -57,14 +57,14 @@ ${data.usage}
 ${data.contrib}
 
 ## License
-*This project uses the ${data.license} license.
-*Read more about it by clicking the link below 
+*This project uses the ${data.license} license.*\n
+*Read more about it by clicking the link below*\n
 ${licenseLink}
 
 ## Questions
 [Github Profile](https://github.com/${data.github})
 
-*I can be reached via email at ${data.email}*
+I can be reached via email at ${data.email}
 `
     return generatedRM;
 }
