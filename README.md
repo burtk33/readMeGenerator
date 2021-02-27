@@ -1,5 +1,5 @@
-![License Badge](https://img.shields.io/static/v1?label=License&message=Apache2.0&color=blue)
-# 
+![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
+# ReadMe Generator
 
 ## Table of Contents
 
@@ -11,25 +11,29 @@
 * [Questions](#questions)
     
 ## Description
-
+A markdown file generator that prompts the user to enter information for a ReadMe file
 
 ## Installation Instructions
+Install Node.js and node module 'inquirer' in order to run
 
+Please see the link for the walkthrough video below
+
+[Walkthrough Video](https://www.youtube.com/watch?v=DVCawVPPNno)
 
 ## Usage
-
+used as a ReadMe markdown file generator for software development projects
 
 ## Contribution Guidelines
-
+No contributions permitted
 
 ## License
-*This project uses the Apache2.0 license.*
+*This project uses the MIT license.*
 
 *Read more about it by clicking the link below*
 
-[License Link](http://www.apache.org/licenses/LICENSE-2.0)
+[License Link](https://choosealicense.com/licenses/mit/)
 
 ## Questions
-[Github Profile](https://github.com/)
+[Github Profile](https://github.com/burtk33)
 
-I can be reached via email at 
+I can be reached via email at burtk33@gmail.com

@@ -8,7 +8,6 @@ function renderLicenseBadge(license) {
 //function that renders a link to txt file containg license
 function renderLicenseLink(license) {
     const selectedLicense=license.license[0];
-    console.log(license.license[0])
     let licenseLink="";
 
     if(selectedLicense === "Apache2.0"){
@@ -29,8 +28,6 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
     let badge=renderLicenseBadge(data);
     let licenseLink= renderLicenseLink(data);
-    console.log(data.license);
-    console.log('Link: '+licenseLink);
     let generatedRM = 
     `${badge}
 # ${data.title}
